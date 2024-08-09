@@ -1,0 +1,31 @@
+export const styles = {
+  Wrapper: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap:'24px',
+    width: "100%",
+    height: "80vh",
+    backgroundColor: "white",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+    borderRadius: "12px",
+  },
+  TwoElementsWrapper: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap:'12px',
+    width: "50%",
+    height: "fit-content",
+  },
+  TitleText: { align: "left", fontWeight: "600", fontSize: "22px" },
+  TitleWrapper: { textAlign: "left", marginBottom: "8px" },
+  inputField :{
+    backgroundColor: "#f2f6fa",
+    borderRadius : '4px',
+    cursor:"default",
+    width: "50%",
+  },
+};
